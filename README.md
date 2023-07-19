@@ -16,6 +16,10 @@ By replacing start and end scripts with those provided from this repo in Cura, a
 
 ![Screenshot of macro now available in Fluidd ui](img/fluidd_macros.png)
 
+## Flow Chart
+
+![Flow chart](img/flowchart.drawio.svg)
+
 ## A Few Caveats
  - If entering the "filename" in the LOOP macro via Fluidd ui, the "filename" must not contain spaces.
  - User must supply their own gcode for priming the nozzle, clearing the bed, start/end macro, etc. as these will vary based on the printer's configuration, size and location of part being printed, etc.. Although the gcode is supplied, for OUR use-case, verify compatibility before potentially causing damage to your precious hardware (again, HessFab is not responsible). 
